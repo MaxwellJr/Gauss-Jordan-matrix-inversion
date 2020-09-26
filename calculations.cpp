@@ -68,6 +68,7 @@ void inverseMatrix(float **matrix, const unsigned int n) {
             }
         }
     }
+
     for (size_t i = 0; i != n; ++i) {
         const float scale = augmented_matrix[i][i];
         for (size_t j = 0; j != 2 * n; ++j) {
